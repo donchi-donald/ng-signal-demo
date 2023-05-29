@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {MyAppComponent} from "./my-app-rxjs/my-app.component";
+import {MyAppSignalComponent} from "./my-app-signal/my-app-signal.component";
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import {MyAppComponent} from "./my-app-rxjs/my-app.component";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MyAppComponent
+    MyAppComponent,
+    MyAppSignalComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
